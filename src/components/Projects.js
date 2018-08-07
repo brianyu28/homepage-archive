@@ -19,7 +19,7 @@ export default class Projects extends React.Component {
       <div>
         <h2>Personal Projects</h2>
 
-        <Card className="card" title="Accompaniment" extra={<a href="https://github.com/brianyu28/accompaniment" target="_blank">GitHub</a>}>
+        <Card className="card" title="Accompaniment" extra={<a href="https://github.com/brianyu28/accompaniment">GitHub</a>}>
           <p>
             Accompaniment is a musical accompaniment system based on Hidden Markov Models. The system takes as input the
             musical score for a piece that contains both a melody and an accompaniment. Then, when the system is provided with an audio
@@ -31,7 +31,7 @@ export default class Projects extends React.Component {
           </p>
         </Card>
 
-        <Card className="card" title="Dispatch" extra={<a href="https://github.com/brianyu28/dispatch" target="_blank">GitHub</a>}>
+        <Card className="card" title="Dispatch" extra={<a href="https://github.com/brianyu28/dispatch">GitHub</a>}>
           <p>
             Dispatch is a command-line mail merge tool for sending custom bulk emails to a list of recipients.
             It supports sending emails to a list of email addresses in a CSV file, and the sender can use a 
@@ -41,7 +41,7 @@ export default class Projects extends React.Component {
 
         <Card className="card" title="CS Guidebook" extra={
           <span>
-            <a href="https://www.csguidebook.com/" target="_blank">Link</a> / <a href="https://github.com/brianyu28/csguidebook" target="_blank">GitHub</a>
+            <a href="https://www.csguidebook.com/">Link</a> / <a href="https://github.com/brianyu28/csguidebook">GitHub</a>
           </span>}
         >
           <p>
@@ -58,7 +58,7 @@ export default class Projects extends React.Component {
           </p>
         </Card>
 
-        <Card className="card" title="Crimson Infographics" extra={<a href="https://github.com/brianyu28/infographics-crimcom17" target="_blank">GitHub</a>}>
+        <Card className="card" title="Crimson Infographics" extra={<a href="https://github.com/brianyu28/infographics-crimcom17">GitHub</a>}>
           <p>
             I've worked on a variety of projects as part of The Crimson's design team to build tools that
             help create graphics for the paper's stories. Among these projects include a quote card generator, and a line and bar graph generator.
@@ -67,7 +67,7 @@ export default class Projects extends React.Component {
         </Card>
 
         <h2>CS50 Projects</h2>
-        <Card className="card" title="help50" extra={<a href="https://github.com/cs50/help50-server" target="_blank">GitHub</a>}>
+        <Card className="card" title="help50" extra={<a href="https://github.com/cs50/help50-server">GitHub</a>}>
           <p>
             <code>help50</code> is a command-line tool to help introductory computer science students understand error messages.
             It takes common error messages as produced by <code>clang</code>, <code>valgrind</code>, or other programs,
@@ -75,11 +75,11 @@ export default class Projects extends React.Component {
             more beginner-friendly format.
           </p>
           <p>
-            Designed with <a href="http://annieechen.com/" target="_blank">Annie Chen</a>.
+            Designed with <a href="http://annieechen.com/">Annie Chen</a>.
           </p>
         </Card>
 
-        <Card className="card" title="CS50.me" extra={<a href="https://cs50.me" target="_blank">Link</a>}>
+        <Card className="card" title="CS50.me" extra={<a href="https://cs50.me">Link</a>}>
           <p>
             CS50.me is CS50's gradebook system. It handles the auto-grading of student assignments,
             grade editors for course staff, and a gradebook view for students.
@@ -87,21 +87,21 @@ export default class Projects extends React.Component {
         </Card>
 
         <h2>Research Projects</h2>
-        <Card className="card" title="TAG to ACG Translator" extra={<a href="https://github.com/brianyu28/tag-to-acg" target="_blank">GitHub</a>}>
+        <Card className="card" title="TAG to ACG Translator" extra={<a href="https://github.com/brianyu28/tag-to-acg">GitHub</a>}>
           <p>
             The TAG to ACG translator is a compiler to translate tree-adjoining grammars into
             equivalent abstract categorial grammars in a format
-            that can be understood by the <a href="http://calligramme.loria.fr/acg/" target="_blank">ACG Toolkit</a>.
+            that can be understood by the <a href="http://calligramme.loria.fr/acg/">ACG Toolkit</a>.
             This allows for the testing of a string for membership in the language of
             any arbitrary TAG (with optional null-adjoining constraints).
           </p>
           <p>
-            Designed with support from <a href="http://www.eecs.harvard.edu/~shieber/" target="_blank">Stuart Shieber</a> and <a href="https://scholar.harvard.edu/aggazzotti/home" target="_blank">Cristina Aggazzotti</a>.
+            Designed with support from <a href="http://www.eecs.harvard.edu/~shieber/">Stuart Shieber</a> and <a href="https://scholar.harvard.edu/aggazzotti/home">Cristina Aggazzotti</a>.
           </p>
         </Card>
 
         <h2>Looking for more projects?</h2>
-        Find them on my <a href="https://github.com/brianyu28" target="_blank">GitHub Profile</a>.
+        Find them on my <a href="https://github.com/brianyu28">GitHub Profile</a>.
       </div>
     );
   }

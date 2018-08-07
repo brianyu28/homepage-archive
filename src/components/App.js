@@ -40,19 +40,19 @@ class App extends React.Component {
     const links = (
       <Menu>
         <Menu.Item>
-          <a target="_blank" href="/resume.pdf"><Icon type="file-text" /> Resume</a>
+          <a href="/resume.pdf"><Icon type="file-text" /> Resume</a>
         </Menu.Item>
         <Menu.Item>
-          <a target="_blank" href="https://github.com/brianyu28"><Icon type="github" /> GitHub</a>
+          <a href="https://github.com/brianyu28"><Icon type="github" /> GitHub</a>
         </Menu.Item>
         <Menu.Item>
-          <a target="_blank" href="https://www.linkedin.com/in/brian-yu/"><Icon type="linkedin" /> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/brian-yu/"><Icon type="linkedin" /> LinkedIn</a>
         </Menu.Item>
         <Menu.Item>
-          <a target="_blank" href="https://www.facebook.com/BrianYu28"><Icon type="facebook" /> Facebook</a>
+          <a href="https://www.facebook.com/BrianYu28"><Icon type="facebook" /> Facebook</a>
         </Menu.Item>
         <Menu.Item>
-          <a target="_blank" href="https://www.thecrimson.com/writer/1212675/Brian_P._Yu/"><Icon type="book" /> The Crimson</a>
+          <a href="https://www.thecrimson.com/writer/1212675/Brian_P._Yu/"><Icon type="book" /> The Crimson</a>
         </Menu.Item>
       </Menu>
     );

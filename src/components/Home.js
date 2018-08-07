@@ -24,19 +24,19 @@ export default class Home extends React.Component {
       <div>
         <h2>Hello!</h2>
         <p>
-          I'm Brian, a rising senior at Harvard College living in <a href={winthrop} target="_blank">Winthrop House</a>,
+          I'm Brian, a rising senior at Harvard College living in <a href={winthrop}>Winthrop House</a>,
           studying computer science and linguistics.
 
-          I'm the head teaching fellow for <a href={cs50} target="_blank">CS50</a>,
-          Harvard's introductory course in computer science, and <a href={cs100} target="_blank">CS100</a>,
+          I'm the head teaching fellow for <a href={cs50}>CS50</a>,
+          Harvard's introductory course in computer science, and <a href={cs100}>CS100</a>,
           Harvard's course on software engineering in the digital humanities.
 
-          I'm also the instructor for <a href={web} target="_blank">Web Programming with Python and JavaScript</a> on
+          I'm also the instructor for <a href={web}>Web Programming with Python and JavaScript</a> on
           edX and at Harvard Extension School, and I'm a news executive and former digital strategist
-          at <a href={crimson} target="_blank">The Crimson</a>, Harvard College's student newspaper.
+          at <a href={crimson}>The Crimson</a>, Harvard College's student newspaper.
           
           I'm currently working as a software engineering intern
-          at <a href={palantir} target="_blank">Palantir</a>. I've also previously worked for 3P Speech
+          at <a href={palantir}>Palantir</a>. I've also previously worked for 3P Speech
           and the National Speech and Debate Association. I'm interested in computation, language, and education.
         </p>
       </div>
