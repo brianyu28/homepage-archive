@@ -14,10 +14,6 @@ const ButtonGroup = Button.Group;
 
 class App extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <Router>
@@ -33,7 +29,7 @@ class App extends React.Component {
   renderProfileImage() {
     return (
       <div className="profile">
-        <img src={profile} className="profile-image" />
+        <img src={profile} alt="profile" className="profile-image" />
         <div className="profile-name">Brian Yu</div>
       </div>
     )

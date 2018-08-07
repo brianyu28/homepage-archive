@@ -51,7 +51,7 @@ export default class Posts extends React.Component {
   renderPosts() {
     return (
       <div>
-        <Post identifier="01.hello.html" />
+        <Post identifier="01.edx.html" />
       </div>
     );
   }
