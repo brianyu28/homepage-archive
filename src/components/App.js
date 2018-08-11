@@ -6,6 +6,7 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Courses from "./Courses";
 import Posts from "./Posts";
+import Analytics, { logResource } from "../Analytics";
 
 import profile from "../assets/profile.png";
 import "../css/App.css";
@@ -40,19 +41,19 @@ class App extends React.Component {
     const links = (
       <Menu>
         <Menu.Item>
-          <a href="/resume.pdf"><Icon type="file-text" /> Resume</a>
+          <a onClick={() => logResource("resume")} href="/resume.pdf"><Icon type="file-text" /> Resume</a>
         </Menu.Item>
         <Menu.Item>
-          <a href="https://github.com/brianyu28"><Icon type="github" /> GitHub</a>
+          <a onClick={() => logResource("github")} href="https://github.com/brianyu28"><Icon type="github" /> GitHub</a>
         </Menu.Item>
         <Menu.Item>
-          <a href="https://www.linkedin.com/in/brian-yu/"><Icon type="linkedin" /> LinkedIn</a>
+          <a onClick={() => logResource("linkedin")} href="https://www.linkedin.com/in/brian-yu/"><Icon type="linkedin" /> LinkedIn</a>
         </Menu.Item>
         <Menu.Item>
-          <a href="https://www.facebook.com/BrianYu28"><Icon type="facebook" /> Facebook</a>
+          <a onClick={() => logResource("facebook")} href="https://www.facebook.com/BrianYu28"><Icon type="facebook" /> Facebook</a>
         </Menu.Item>
         <Menu.Item>
-          <a href="https://www.thecrimson.com/writer/1212675/Brian_P._Yu/"><Icon type="book" /> The Crimson</a>
+          <a onClick={() => logResource("crimson")} href="https://www.thecrimson.com/writer/1212675/Brian_P._Yu/"><Icon type="book" /> The Crimson</a>
         </Menu.Item>
       </Menu>
     );
@@ -75,6 +76,7 @@ class App extends React.Component {
   renderRoutes() {
     return (
       <div className="body">
+        <Route path="/" component={Analytics} />
         <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/courses" component={Courses} />
