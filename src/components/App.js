@@ -9,6 +9,7 @@ import Posts from "./Posts";
 import Analytics, { logResource } from "../Analytics";
 
 import profile from "../assets/profile.png";
+import resume from "../assets/resume.pdf";
 import "../css/App.css";
 
 const ButtonGroup = Button.Group;
@@ -41,7 +42,7 @@ class App extends React.Component {
     const links = (
       <Menu>
         <Menu.Item>
-          <a onClick={() => logResource("resume")} href="/resume.pdf"><Icon type="file-text" /> Resume</a>
+          <a onClick={() => logResource("resume")} href={resume}><Icon type="file-text" /> Resume</a>
         </Menu.Item>
         <Menu.Item>
           <a onClick={() => logResource("github")} href="https://github.com/brianyu28"><Icon type="github" /> GitHub</a>
@@ -81,10 +82,18 @@ class App extends React.Component {
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/courses" component={Courses} />
         <Route exact path="/posts" component={Posts} />
+        <Route exact path="/resume" component={Resume} />
       </div>
     );
   }
 
+}
+
+class Resume extends React.Component {
+  render() {
+    window.location = resume;
+    return null;
+  }
 }
 
 export default App;
