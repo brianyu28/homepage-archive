@@ -2,6 +2,7 @@ import React from "react";
 import { Card } from "antd";
 
 import "../css/Projects.css";
+import chronologyLogo from "../assets/chronology_logo.png";
 
 export default class Projects extends React.Component {
 
@@ -18,6 +19,16 @@ export default class Projects extends React.Component {
     return (
       <div>
         <h2>Personal Projects</h2>
+
+        <Card className="card" title="Chronology" extra={<a href="https://github.com/brianyu28/chronology">GitHub</a>}>
+          <p>
+            <img src={chronologyLogo} alt="Chronology" style={{ maxWidth: "100px", paddingRight: "10px", float: "left" }}  />
+            Chronology is an application I built for personal time tracking. I use it to keep track of what I spend time on
+            each day. It provides an interface for users to select the category and subcategory of an activity, and then 
+            automatically logs that activity along with a timestamp to a server-side spreadsheet which can then be used for analyzing
+            time allocations. 
+          </p>
+        </Card>
 
         <Card className="card" title="Accompaniment" extra={<a href="https://github.com/brianyu28/accompaniment">GitHub</a>}>
           <p>
