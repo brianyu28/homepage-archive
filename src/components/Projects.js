@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "antd";
 
 import "../css/Projects.css";
-import chronologyLogo from "../assets/chronology_logo.png";
+import chronologyLogo from "../assets/chronology_logo.svg";
 
 export default class Projects extends React.Component {
 

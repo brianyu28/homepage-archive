@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <radialGradient id="gradient-0" gradientUnits="userSpaceOnUse" cx="252.692" cy="247.851" r="191.405" gradientTransform="matrix(0.991246, 0, 0, 0.991246, 2.212515, 2.169744)">
+      <stop offset="0" style="stop-color: rgba(207, 207, 146, 1)"/>
+      <stop offset="1" style="stop-color: rgb(148, 148, 60);"/>
+    </radialGradient>
+    <radialGradient id="gradient-1" gradientUnits="userSpaceOnUse" cx="252.022" cy="249.862" r="218.736" gradientTransform="matrix(1.003064, -0.006128, 0.006109, 0.999981, -2.298761, 1.549133)">
+      <stop offset="0"/>
+      <stop offset="1" style="stop-color: rgb(195, 197, 184);"/>
+    </radialGradient>
+    <radialGradient id="gradient-3" gradientUnits="userSpaceOnUse" cx="260.634" cy="255.793" r="20.978" gradientTransform="matrix(0.978621, 0, 0, 0.978621, -4.134242, -3.340641)">
+      <stop offset="0" style="stop-color: rgb(88, 88, 88);"/>
+      <stop offset="1" style="stop-color: rgba(0, 0, 0, 1)"/>
+    </radialGradient>
+  </defs>
+  <circle cx="252.692" cy="247.851" r="218.736" style="fill: url(#gradient-1);"/>
+  <circle cx="252.692" cy="247.851" r="189.729" style="fill: url(#gradient-0);"/>
+  <rect x="244.447" y="71.979" width="12.961" height="168.889"/>
+  <rect x="444.65" y="54.425" width="12.871" height="122.816" transform="matrix(-0.5, 0.866025, -0.860288, -0.509938, 630.252563, -51.200031)" bx:origin="0.500046 0.500244"/>
+  <circle cx="250.928" cy="246.984" r="20.53" style="fill: url(#gradient-3);"/>
+</svg>
