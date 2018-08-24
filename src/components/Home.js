@@ -24,7 +24,7 @@ export default class Home extends React.Component {
       <div>
         <h2>Hello!</h2>
         <p>
-          I'm Brian, a rising senior at Harvard College living in <a href={winthrop}>Winthrop House</a>,
+          I'm Brian, a senior at Harvard College living in <a href={winthrop}>Winthrop House</a>,
           studying computer science and linguistics.
 
           I'm the head teaching fellow for <a href={cs50}>CS50</a>,
@@ -35,8 +35,8 @@ export default class Home extends React.Component {
           edX and at Harvard Extension School, and I'm a news executive and former digital strategist
           at <a href={crimson}>The Crimson</a>, Harvard College's student newspaper.
           
-          I'm currently working as a software engineering intern
-          at <a href={palantir}>Palantir</a>. I've also previously worked for 3P Speech
+          I've previously worked as a software engineering intern at <a href={palantir}>Palantir</a>,
+          and I've also worked for 3P Speech
           and the National Speech and Debate Association. I'm interested in computation, language, and education.
         </p>
       </div>
