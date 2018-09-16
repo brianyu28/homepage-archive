@@ -15,7 +15,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "postinstall": "npm run build",
-    "deploy": "react-scripts-ts build && aws s3 cp build/ s3://www.brianyu.me --recursive"
+    "postinstall": "npm run build"
   }
 }
