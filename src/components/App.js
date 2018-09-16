@@ -2,10 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import { Button, Dropdown, Icon, Menu } from "antd";
 
-import Home from "./Home";
-import Projects from "./Projects";
 import Courses from "./Courses";
+import Home from "./Home";
 import Posts from "./Posts";
+import Projects from "./Projects";
+import Section from "./Section";
 import Analytics, { logResource } from "../Analytics";
 
 import profile from "../assets/profile.png";
@@ -83,6 +84,7 @@ class App extends React.Component {
         <Route exact path="/courses" component={Courses} />
         <Route exact path="/posts" component={Posts} />
         <Route exact path="/resume" component={Resume} />
+        <Route exact path="/section" component={Section} />
       </div>
     );
   }
