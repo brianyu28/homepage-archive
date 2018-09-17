@@ -20,7 +20,7 @@ export default class Projects extends React.Component {
             <li>
                 Examples
                 <ul>
-                    <li>None</li>
+                  
                 </ul>
             </li>
             <li><a href="https://www.dropbox.com/s/2fcfn75lkkg49b1/section1.pdf?dl=0">Slides</a></li>
