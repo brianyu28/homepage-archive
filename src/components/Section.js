@@ -20,7 +20,10 @@ export default class Projects extends React.Component {
             <li>
                 Examples
                 <ul>
-                  
+                  <li><a href="https://sandbox.cs50.io/deb9b967-d71d-4302-8d05-21884d1431f3">Conditions</a></li>
+                  <li><a href="https://sandbox.cs50.io/b2fb9fd1-7e15-421c-ae17-5d728616c542">Booleans</a></li>
+                  <li><a href="https://sandbox.cs50.io/48d83c6c-332f-47a9-ae83-d1316c5ac9ff">Swap</a></li>
+                  <li><a href="https://sandbox.cs50.io/d58cc5a3-16ae-4ff9-ba51-87ac07531c53">Functions</a></li>
                 </ul>
             </li>
             <li><a href="https://www.dropbox.com/s/2fcfn75lkkg49b1/section1.pdf?dl=0">Slides</a></li>
