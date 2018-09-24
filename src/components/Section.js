@@ -19,9 +19,15 @@ export default class Projects extends React.Component {
         <Card className="card" title="Section 2 (C Continued)" extra={"September 24, 2018"}>
           <ul>
             <li>
-                Examples (coming soon)
+                Examples
+                <ul>
+                  <li><a href="https://sandbox.cs50.io/570337d6-afaf-4b9c-b449-d1d48a6b2ad6">Capitalize</a></li>
+                  <li><a href="https://sandbox.cs50.io/ef298289-e41a-4785-80da-0d949268f6de">Leap Years</a></li>
+                </ul>
             </li>
-            <li>Slides (coming soon)</li>
+            <li>
+              <a href="https://www.dropbox.com/s/r8fqb8cm71920ff/section2.pdf?dl=0">Slides</a>
+            </li>
             <li><a href="https://goo.gl/forms/OpH19rf7WlzoIuTK2">Feedback Form</a></li>
           </ul>
         </Card>
