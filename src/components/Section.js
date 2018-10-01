@@ -19,10 +19,7 @@ export default class Projects extends React.Component {
         <Card className="card" title="Section 3 (Memory)" extra={"October 1, 2018"}>
           <ul>
             <li>
-                Examples
-            </li>
-            <li>
-              Slides
+              <a href="https://www.dropbox.com/s/cgruawsi30bnx91/section3.pdf?dl=0">Slides</a>
             </li>
             <li><a href="https://goo.gl/forms/ZP0mLWXdplU71HKW2">Feedback Form</a></li>
           </ul>
