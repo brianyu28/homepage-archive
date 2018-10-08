@@ -16,6 +16,18 @@ export default class Projects extends React.Component {
     return (
       <div>
 
+        <Card className="card" title="Section 4 (Data Structures)" extra={"October 8, 2018"}>
+          <ul>
+            <li>Slides</li>
+            <li>Examples
+              <ul>
+                <li><a href="https://www.dropbox.com/s/auzgwh5wouaty1r/list.c?dl=0">Linked Lists</a></li>
+              </ul> 
+            </li>
+            <li><a href="https://goo.gl/forms/A51KxwNmNxD2zOST2">Feedback Form</a></li>
+          </ul>
+        </Card>
+
         <Card className="card" title="Section 3 (Memory)" extra={"October 1, 2018"}>
           <ul>
             <li>
