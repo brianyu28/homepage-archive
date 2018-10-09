@@ -85,6 +85,7 @@ class App extends React.Component {
         <Route exact path="/posts" component={Posts} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/section" component={Section} />
+        <Route exact path="/shoot" component={Shoot} />
       </div>
     );
   }
@@ -94,6 +95,13 @@ class App extends React.Component {
 class Resume extends React.Component {
   render() {
     window.location = resume;
+    return null;
+  }
+}
+
+class Shoot extends React.Component {
+  render() {
+    window.location = "https://bpyshoot.herokuapp.com/";
     return null;
   }
 }
