@@ -16,6 +16,12 @@ export default class Projects extends React.Component {
     return (
       <div>
 
+        <Card className="card" title="Section 7 (Web Programming)" extra={"October 29, 2018"}>
+          <ul>
+            <li><a href="https://goo.gl/forms/C6qEgTACkaeiD0if1">Feedback Form</a></li>
+          </ul>
+        </Card>
+
         <Card className="card" title="Section 6 (Python)" extra={"October 22, 2018"}>
           <ul>
             <li><a href="https://goo.gl/forms/fjDJqi5pIsbIJaWK2">Feedback Form</a></li>
