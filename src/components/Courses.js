@@ -18,7 +18,15 @@ export default class Courses extends React.Component {
       <div>
         <h2>Courses I've Taught</h2>
         <Timeline>
-        <Timeline.Item>
+          <Timeline.Item>
+            <p>
+              <b>Spring 2019</b>
+              <br/>Computer Science E-33a: Web Programming with Python and JavaScript (Instructor, Harvard Extension School)
+              <br/>Computer Science 124: Data Structures and Algorithms (Teaching Fellow, Harvard College)
+              <br/>Computer Science 51: Abstraction and Design in Computation (Teaching Fellow, Harvard College)
+            </p>
+          </Timeline.Item>
+          <Timeline.Item>
             <p>
               <b>Fall 2018</b>
               <br/>Computer Science 50: Introduction to Computer Science (Head Teaching Fellow, Harvard College)
@@ -76,8 +84,15 @@ export default class Courses extends React.Component {
         <Timeline>
         <Timeline.Item>
             <p>
+              <b>Spring 2019</b>
+              <br/>Computer Science 191: Classics of Computer Science
+              <br/>Linguistics 106: Knowledge of Meaning
+              <br/>Linguistics 99b: Tutorial
+              <br/>History of Science 128: The Century of Physics
+            </p>
+            <p>
               <b>Fall 2018</b>
-              <br/>Computer Science 153: Compilers 
+              <br/>Computer Science 153: Compilers
               <br/>Linguistics 105: Sounds of Language
               <br/>Computer Science 90ncr: Law for Algorithms
               <br/>Computer Science 91r: Supervised Reading and Research (with Stuart Shieber)
