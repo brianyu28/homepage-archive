@@ -28,6 +28,12 @@ export default class Courses extends React.Component {
           </Timeline.Item>
           <Timeline.Item>
             <p>
+              <b>Winter 2019</b>
+              <br/>CS50 Beyond (Instructor, Harvard College Wintersession)
+            </p>
+          </Timeline.Item>
+          <Timeline.Item>
+            <p>
               <b>Fall 2018</b>
               <br/>Computer Science 50: Introduction to Computer Science (Head Teaching Fellow, Harvard College)
               <br/>Computer Science 100: Software Engineering in the Arts and Humanities (Head Teaching Fellow, Harvard College)
