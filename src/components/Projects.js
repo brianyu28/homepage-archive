@@ -50,18 +50,10 @@ export default class Projects extends React.Component {
           </p>
         </Card>
 
-        <Card className="card" title="CS Guidebook" extra={
+        <Card className="card" title="Extemp Timer" extra={
           <span>
-            <a href="https://www.csguidebook.com/">Link</a> / <a href="https://github.com/brianyu28/csguidebook">GitHub</a>
-          </span>}
-        >
-          <p>
-            CS Guidebook is currently a very early work in progress: it's a place where I hope to post some of the tutorial
-            and educational materials I've been writing about computer science-related topics online, for free public usage.
-          </p>
-        </Card>
-
-        <Card className="card" title="Extemp Timer" extra="Not Currently Online">
+            <a href="https://brianyu28.github.io/extemp/">Link</a> / <a href="https://github.com/brianyu28/extemp">GitHub</a>
+          </span>}>
           <p>
           The Extemp Timer is meant for extemporaneous speaking competitions, and can be used by extemp prep room proctors to
           manage when speakers should be drawing their questions and leaving for round. I was an extemporanous speaking competitor
@@ -74,6 +66,17 @@ export default class Projects extends React.Component {
             I've worked on a variety of projects as part of The Crimson's design team to build tools that
             help create graphics for the paper's stories. Among these projects include a quote card generator, and a line and bar graph generator.
             I've also designed interactive online D3-based infographics for The Crimson's Commencement issues.
+          </p>
+        </Card>
+
+        <Card className="card" title="CS Guidebook" extra={
+          <span>
+            <a href="https://www.csguidebook.com/">Link</a> / <a href="https://github.com/brianyu28/csguidebook">GitHub</a>
+          </span>}
+        >
+          <p>
+            CS Guidebook is currently a very early work in progress: it's a place where I hope to post some of the tutorial
+            and educational materials I've been writing about computer science-related topics online, for free public usage.
           </p>
         </Card>
 
