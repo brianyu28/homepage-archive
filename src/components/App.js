@@ -11,6 +11,7 @@ import Analytics, { logResource } from "../Analytics";
 
 import profile from "../assets/profile.png";
 import resume from "../assets/resume.pdf";
+import thesis from "../assets/thesis.pdf";
 import "../css/App.css";
 
 const ButtonGroup = Button.Group;
@@ -84,6 +85,7 @@ class App extends React.Component {
         <Route exact path="/courses" component={Courses} />
         <Route exact path="/posts" component={Posts} />
         <Route exact path="/resume" component={Resume} />
+        <Route exact path="/thesis" component={Thesis} />
         <Route exact path="/section" component={Section} />
         <Route exact path="/shoot" component={Shoot} />
       </div>
@@ -95,6 +97,13 @@ class App extends React.Component {
 class Resume extends React.Component {
   render() {
     window.location = resume;
+    return null;
+  }
+}
+
+class Thesis extends React.Component {
+  render() {
+    window.location = thesis;
     return null;
   }
 }
