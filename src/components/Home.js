@@ -13,7 +13,7 @@ export default class Home extends React.Component {
 
   renderHello() {
 
-    const winthrop = "https://winthrop.harvard.edu/";
+    const dce = "https://www.dce.harvard.edu/";
     const cs50 = "https://cs50.harvard.edu/";
     const cs100 = "https://cs.harvard.edu/100";
     const web = "https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript";
@@ -24,18 +24,21 @@ export default class Home extends React.Component {
       <div>
         <h2>Hello!</h2>
         <p>
-          I'm Brian, a senior at Harvard College living in <a href={winthrop}>Winthrop House</a>,
-          studying computer science and linguistics.
+          I'm Brian, a Senior Preceptor at Harvard's <a href={dce}>Division of Continuing Education</a>.
+          I graduated from Harvard College in 2019 with a degree in computer science and linguistics.
 
-          I'm the head teaching fellow for <a href={cs50}>CS50</a>,
-          Harvard's introductory course in computer science, and <a href={cs100}>CS100</a>,
-          Harvard's course on software engineering in the digital humanities.
+          I currently work with the team at <a href={cs50}>CS50</a>,
+          Harvard's introductory course in computer science, where I focus on curricular development, outreach, and software tools.
+          I have previously worked with a number of other computer science classes, including
+          CS51, Harvard's course on abstraction and design in computing,
+          CS124, Harvard's introduction to algorithms,
+          and <a href={cs100}>CS100</a>, Harvard's course on software engineering in the digital humanities.
 
           I'm also the instructor for <a href={web}>Web Programming with Python and JavaScript</a> on
-          edX and at Harvard Extension School, and I'm a news executive and former digital strategist
-          at <a href={crimson}>The Crimson</a>, Harvard College's student newspaper.
-          
+          edX, Harvard Extension School and Harvard Summer School.
+
           I've previously worked as a software engineering intern at <a href={palantir}>Palantir</a>,
+          a news executive and digital strategist at <a href={crimson}>The Harvard Crimson</a>,
           and I've also worked for 3P Speech
           and the National Speech and Debate Association. I'm interested in computation, language, and education.
         </p>
@@ -51,13 +54,10 @@ export default class Home extends React.Component {
           <li>
             For general communication,
             contact <a href="mailto:brian@brianyu.me">brian@brianyu.me</a>, <a href="mailto:brian@cs.harvard.edu">brian@cs.harvard.edu</a>,
-            or <a href="mailto:brianyu@college.harvard.edu">brianyu@college.harvard.edu</a>.
+            or <a href="mailto:brianyu@alumni.harvard.edu">brianyu@alumni.harvard.edu</a>.
           </li>
           <li>
             For CS50-related communication, contact <a href="mailto:brian@cs50.harvard.edu">brian@cs50.harvard.edu</a>.
-          </li>
-          <li>
-            For Crimson-related communication, contact <a href="mailto:brian.yu@thecrimson.com">brian.yu@thecrimson.com</a>.
           </li>
         </ul>
       </div>
