@@ -1,0 +1,5 @@
+.dockerignore
+.gitignore
+client/node_modules
+Dockerfile
+README.md

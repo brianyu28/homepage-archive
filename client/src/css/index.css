@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import "~antd/dist/antd.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif !important;
+  color: black !important;
+}
