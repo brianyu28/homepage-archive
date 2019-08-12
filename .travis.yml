@@ -1,4 +1,6 @@
 language: python
+install: true
+script: true
 deploy:
   provider: elasticbeanstalk
   access_key_id: "$AWS_ACCESS_KEY_ID"
