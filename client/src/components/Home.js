@@ -30,8 +30,8 @@ export default class Home extends React.Component {
           I currently work with the team at <a href={cs50}>CS50</a>,
           Harvard's introductory course in computer science, where I focus on curricular development, outreach, and software tools.
 
-          I'm also the instructor for <a href={web}>Web Programming with Python and JavaScript</a> on
-          edX, Harvard Extension School and Harvard Summer School.
+          I'm also the instructor for <a href={web}>Web Programming with Python and JavaScript</a> offered through edX,
+          Harvard Extension School and Harvard Summer School.
 
           I have previously worked with a number of other computer science classes, including
           CS51, Harvard's course on abstraction and design in computing,
