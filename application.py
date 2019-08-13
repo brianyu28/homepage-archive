@@ -12,3 +12,7 @@ def index(path=""):
 def resume():
     return app.send_static_file("resume.pdf")
 
+@app.route("/testing")
+def testing():
+    return os.environ.get("TESTING", "None")
+
