@@ -4,7 +4,6 @@ import { Button, Dropdown, Icon, Menu } from "antd";
 
 import Courses from "./Courses";
 import Home from "./Home";
-import Posts from "./Posts";
 import Projects from "./Projects";
 import Section from "./Section";
 import Analytics, { logResource } from "../Analytics";
@@ -62,7 +61,6 @@ export default class App extends React.Component {
           <Button><Link to="/">Home</Link></Button>
           <Button><Link to="/projects">Projects</Link></Button>
           <Button><Link to="/courses">Courses</Link></Button>
-          <Button><Link to="/posts">Posts</Link></Button>
           <Dropdown overlay={links}>
             <Button>Links<Icon type="down" /></Button>
           </Dropdown>
@@ -78,7 +76,6 @@ export default class App extends React.Component {
         <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/courses" component={Courses} />
-        <Route exact path="/posts" component={Posts} />
         <Route exact path="/section" component={Section} />
       </div>
     );
