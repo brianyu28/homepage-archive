@@ -53,13 +53,7 @@ export default class Home extends React.Component {
         <h3>Contact Me</h3>
         <ul>
           <li>
-            You can reach me at <a href="mailto:brian@brianyu.me">brian@brianyu.me</a>.
-          </li>
-          <li>
-            For Harvard-related communication, contact <a href="mailto:brian@cs.harvard.edu">brian@cs.harvard.edu</a>.
-          </li>
-          <li>
-            For CS50-related communication, contact <a href="mailto:brian@cs50.harvard.edu">brian@cs50.harvard.edu</a>.
+            You can reach me at <a href="mailto:brian@cs.harvard.edu">brian@cs.harvard.edu</a>.
           </li>
         </ul>
       </div>
